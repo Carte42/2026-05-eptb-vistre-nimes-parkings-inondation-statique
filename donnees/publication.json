@@ -24,10 +24,10 @@
      "id": "pilote_bouillargues",
      "titre": "Commune pilote : Bouillargues",
      "date": "2026-10-13",
-     "version": "v1",
+     "version": "v2",
      "type": "carte",
-     "description": "Les aires retenues à Bouillargues après l'examen aire par aire : base OpenStreetMap et BD TOPO, et vivier communal. Proposée pour avis, avant la généralisation à l'ensemble des communes. Ce n'est pas une livraison : la liste n'est pas arrêtée.",
-     "fichier": "donnees/inventaire/pilote_bouillargues_v1.geojson",
+     "description": "Les aires retenues à Bouillargues après l'examen aire par aire : base OpenStreetMap et BD TOPO, et vivier communal. La version 2 ajoute à chaque aire son usage, son contexte, son revêtement, son gestionnaire probable et une description, proposés par analyse de la photographie aérienne et des données voisines, en cours de contrôle. Proposée pour avis, avant la généralisation : la liste n'est pas arrêtée.",
+     "fichier": "donnees/inventaire/pilote_bouillargues_v2.geojson",
      "nb_objets": 16
     }
    ],
@@ -112,7 +112,7 @@
    "phase": "Inventaire des aires",
    "volet": "en_cours",
    "titre": "Commune pilote : Bouillargues",
-   "version": "v1"
+   "version": "v2"
   }
  ]
 }
