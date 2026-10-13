@@ -1,0 +1,118 @@
+{
+ "titre": "Étude de l'exposition aux inondations des aires de stationnement publiques de surface",
+ "maitre_ouvrage": "EPTB Vistre Vistrenque",
+ "marche": "Marché 2026-03 · action 1.9 du PAPI 3 Vistre",
+ "genere_le": "2026-10-13",
+ "phases": [
+  {
+   "id": "inventaire",
+   "titre": "Inventaire des aires",
+   "resume": "Recenser les aires de stationnement publiques de surface de plus de dix places sur les 42 communes adhérentes, avant tout classement, et faire valider la liste par l'EPTB.",
+   "methode": "Les aires candidates viennent de deux bases cartographiques, OpenStreetMap et la BD TOPO de l'IGN, complétées par un balayage du foncier communal (le « vivier communal ») pour les aires que ces bases ne connaissent pas. Le seuil de dix places est appliqué à partir de la surface de l'aire. Le statut public ou privé est déduit du cadastre et du fichier des propriétés des personnes morales. Chaque aire est ensuite examinée une à une sur photographie aérienne, retenue ou écartée avec un motif. Un balayage visuel de quatre secteurs témoins mesure la part de surface que la méthode laisse échapper. Le nombre réel de places est compté plus tard, sur la liste arrêtée avec l'EPTB.",
+   "prevu": [
+    {
+     "code": "R1",
+     "dates": "23/11 → 27/11"
+    },
+    {
+     "code": "R3",
+     "dates": "~ 01/12"
+    }
+   ],
+   "en_cours": [
+    {
+     "id": "pilote_bouillargues",
+     "titre": "Commune pilote : Bouillargues",
+     "date": "2026-10-16",
+     "version": "v1",
+     "type": "carte",
+     "description": "Les aires retenues à Bouillargues après l'examen aire par aire : base OpenStreetMap et BD TOPO, et vivier communal. Proposée pour avis, avant la généralisation à l'ensemble des communes. Ce n'est pas une livraison : la liste n'est pas arrêtée.",
+     "fichier": "donnees/inventaire/pilote_bouillargues_v1.geojson",
+     "nb_objets": 16
+    }
+   ],
+   "livraison": []
+  },
+  {
+   "id": "aleas",
+   "titre": "Aléas",
+   "resume": "Disposer de trois cartes d'aléa homogènes sur les 48 communes du territoire : fréquent, de référence et extrême.",
+   "methode": "Les couches des trois scénarios sont fournies par l'EPTB, à partir de l'étude en cours du Cerema et de ses données internes, et complétées par les sources publiques (Directive inondation, PPRI). Chaque couche reçue est publiée avec sa version et sa date, et peut être remplacée si de nouvelles informations ou de nouveaux réglages surviennent.",
+   "prevu": [
+    {
+     "code": "A1",
+     "dates": "19/10 → 30/10"
+    },
+    {
+     "code": "A3",
+     "dates": "09/11 → 20/11"
+    }
+   ],
+   "en_cours": [],
+   "livraison": []
+  },
+  {
+   "id": "vulnerabilite",
+   "titre": "Vulnérabilité",
+   "resume": "Pour chaque aire de la liste arrêtée : altitude, fréquence et hauteur d'inondation, accessibilité, puis proposition de classement entre aires refuges et aires inondables.",
+   "methode": "Le croisement des aires avec les couches d'aléa et le relief LiDAR HD de l'IGN donne, pour chaque aire, sa cote, le scénario qui l'inonde et la hauteur d'eau attendue. L'accessibilité est évaluée sur le réseau routier et piéton, en conditions normales et en crue.",
+   "prevu": [
+    {
+     "code": "V5",
+     "dates": "14/12 → 18/12"
+    },
+    {
+     "code": "V6",
+     "dates": "14/12 → 18/12"
+    }
+   ],
+   "en_cours": [],
+   "livraison": []
+  },
+  {
+   "id": "classification",
+   "titre": "Classification et fiches-actions",
+   "resume": "Arrêter la classification avec l'EPTB, puis éprouver les trames de fiches-actions sur cinq parkings pilotes.",
+   "methode": "La classification proposée est discutée avec l'EPTB avant d'être arrêtée. Les trames de fiches-actions sont testées sur cinq parkings pilotes, avec une réunion dans chaque commune, et corrigées d'après ces retours.",
+   "prevu": [
+    {
+     "code": "C1",
+     "dates": "04/01 → 08/01"
+    },
+    {
+     "code": "C3",
+     "dates": "11/01 → 22/01"
+    }
+   ],
+   "en_cours": [],
+   "livraison": []
+  },
+  {
+   "id": "rapports",
+   "titre": "Rapports",
+   "resume": "Rapports provisoires, observations de l'EPTB et du comité technique, puis versions définitives et couches SIG.",
+   "methode": "Les rapports reprennent les sources, les méthodes et les choix de l'étude, avec la description complète des tables attributaires des couches livrées.",
+   "prevu": [
+    {
+     "code": "P1",
+     "dates": "25/01 → 29/01"
+    },
+    {
+     "code": "D",
+     "dates": "10/02 → 25/02"
+    }
+   ],
+   "en_cours": [],
+   "livraison": []
+  }
+ ],
+ "journal": [
+  {
+   "date": "2026-10-16",
+   "phase": "Inventaire des aires",
+   "volet": "en_cours",
+   "titre": "Commune pilote : Bouillargues",
+   "version": "v1"
+  }
+ ]
+}
