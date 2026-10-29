@@ -2,13 +2,13 @@
  "titre": "Étude de l'exposition aux inondations des aires de stationnement publiques de surface",
  "maitre_ouvrage": "EPTB Vistre Vistrenque",
  "marche": "Marché 2026-03 · action 1.9 du PAPI 3 Vistre",
- "genere_le": "2026-10-16",
+ "genere_le": "2026-10-29",
  "phases": [
   {
    "id": "inventaire",
    "titre": "Inventaire des aires",
    "resume": "Recenser les aires de stationnement publiques de surface de plus de dix places sur les 42 communes adhérentes, avant tout classement, et faire valider la liste par l'EPTB.",
-   "methode": "Les aires candidates viennent de deux bases cartographiques, OpenStreetMap et la BD TOPO de l'IGN, complétées par un balayage du foncier communal (le « vivier communal ») pour les aires que ces bases ne connaissent pas. Le seuil de dix places est appliqué à partir de la surface de l'aire. Le statut public ou privé est déduit du cadastre et du fichier des propriétés des personnes morales. Chaque aire est ensuite examinée une à une sur photographie aérienne, retenue ou écartée avec un motif. Un balayage visuel de quatre secteurs témoins mesure la part de surface que la méthode laisse échapper. Le nombre réel de places est compté plus tard, sur la liste arrêtée avec l'EPTB.",
+   "methode": "Les aires candidates viennent de deux bases cartographiques, OpenStreetMap et la BD TOPO de l'IGN, complétées par un balayage du foncier communal (le « vivier communal ») pour les aires que ces bases ne connaissent pas, puis par des compléments qui recherchent les aires oubliées (domaine public non cadastré, foncier public non communal, aires sous les arbres, établissements ouverts au public). Le seuil de dix places est appliqué à partir de la surface de l'aire. Le statut public ou privé est déduit du cadastre et du fichier des propriétés des personnes morales. Chaque aire est ensuite examinée une à une sur photographie aérienne, retenue ou écartée avec un motif. Un balayage visuel de quatre secteurs témoins mesure la part de surface que la méthode laisse échapper. Le nombre réel de places est compté plus tard, sur la liste arrêtée avec l'EPTB.",
    "prevu": [
     {
      "code": "R1",
@@ -23,12 +23,22 @@
     {
      "id": "pilote_bouillargues",
      "titre": "Commune pilote : Bouillargues",
-     "date": "2026-10-13",
-     "version": "v2",
+     "date": "2026-10-29",
+     "version": "v3",
      "type": "carte",
-     "description": "Les aires retenues à Bouillargues après l'examen aire par aire : base OpenStreetMap et BD TOPO, et vivier communal. La version 2 ajoute à chaque aire son usage, son contexte, son revêtement, son gestionnaire probable et une description, proposés par analyse de la photographie aérienne et des données voisines, en cours de contrôle. Proposée pour avis, avant la généralisation : la liste n'est pas arrêtée.",
-     "fichier": "donnees/inventaire/pilote_bouillargues_v2.geojson",
-     "nb_objets": 16
+     "description": "Les aires retenues à Bouillargues après l'examen aire par aire : base OpenStreetMap et BD TOPO, et vivier communal. La version 2 ajoute à chaque aire son usage, son contexte, son revêtement, son gestionnaire probable et une description, proposés par analyse de la photographie aérienne et des données voisines, en cours de contrôle. La version 3 ajoute les aires que l'EPTB avait signalées comme oubliées, retrouvées par les compléments de l'inventaire, et l'accès de chaque aire (libre, fermé, réservé), à confirmer sur le terrain. Proposée pour avis : la liste n'est pas arrêtée.",
+     "fichier": "donnees/inventaire/pilote_bouillargues_v3.geojson",
+     "nb_objets": 38
+    },
+    {
+     "id": "inventaire_complete",
+     "titre": "Inventaire complété : 42 communes",
+     "date": "2026-10-29",
+     "version": "v1",
+     "type": "carte",
+     "description": "Toutes les aires retenues sur les 42 communes après l'examen aire par aire : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Chaque aire porte son usage, son contexte, son revêtement, son gestionnaire probable, son accès et une description, proposés par analyse de la photographie aérienne et des données voisines. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
+     "fichier": "donnees/inventaire/inventaire_complete_v1.geojson",
+     "nb_objets": 899
     }
    ],
    "livraison": []
@@ -108,11 +118,18 @@
  ],
  "journal": [
   {
-   "date": "2026-10-13",
+   "date": "2026-10-29",
    "phase": "Inventaire des aires",
    "volet": "en_cours",
    "titre": "Commune pilote : Bouillargues",
-   "version": "v2"
+   "version": "v3"
+  },
+  {
+   "date": "2026-10-29",
+   "phase": "Inventaire des aires",
+   "volet": "en_cours",
+   "titre": "Inventaire complété : 42 communes",
+   "version": "v1"
   }
  ]
 }
