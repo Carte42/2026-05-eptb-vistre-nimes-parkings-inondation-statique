@@ -26,19 +26,9 @@
      "date": "2026-10-30",
      "version": "v2",
      "type": "carte",
-     "description": "Toutes les aires retenues sur les 42 communes après l'examen aire par aire : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Chaque aire porte son usage, son contexte, son revêtement, son gestionnaire probable, son accès et une description, proposés par analyse de la photographie aérienne et des données voisines. La version 2 ajoute les aires retrouvées aux abords des équipements publics, les placettes de lotissement et les rejets rejugés sur leur emprise entière, et distingue l'habitat collectif des autres usages résidentiels. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
+     "description": "Toutes les aires retenues sur les 42 communes après l'examen aire par aire : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Chaque aire porte son usage, son contexte, son revêtement, son gestionnaire probable, son accès et une description, proposés par analyse de la photographie aérienne et des données voisines. La version 2 ajoute les aires retrouvées aux abords des équipements publics, les placettes de lotissement et les rejets rejugés sur leur emprise entière, et distingue l'habitat collectif des autres usages résidentiels. Les aires signalées par l'EPTB sur la commune pilote de Bouillargues y figurent. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
      "fichier": "donnees/inventaire/inventaire_complete_v2.geojson",
      "nb_objets": 969
-    },
-    {
-     "id": "pilote_bouillargues",
-     "titre": "Commune pilote : Bouillargues",
-     "date": "2026-10-30",
-     "version": "v4",
-     "type": "carte",
-     "description": "Les aires retenues à Bouillargues après l'examen aire par aire : base OpenStreetMap et BD TOPO, et vivier communal. La version 2 ajoute à chaque aire son usage, son contexte, son revêtement, son gestionnaire probable et une description, proposés par analyse de la photographie aérienne et des données voisines, en cours de contrôle. La version 3 ajoute les aires que l'EPTB avait signalées comme oubliées, retrouvées par les compléments de l'inventaire, et l'accès de chaque aire (libre, fermé, réservé), à confirmer sur le terrain. La version 4 distingue quatre usages résidentiels : habitat collectif, et résidentiel sur parcelle cadastrée privée, sur parcelle cadastrée publique ou sur domaine non cadastré. Proposée pour avis : la liste n'est pas arrêtée.",
-     "fichier": "donnees/inventaire/pilote_bouillargues_v4.geojson",
-     "nb_objets": 38
     }
    ],
    "livraison": []
@@ -123,13 +113,6 @@
    "volet": "en_cours",
    "titre": "Inventaire complété : 42 communes",
    "version": "v2"
-  },
-  {
-   "date": "2026-10-30",
-   "phase": "Inventaire des aires",
-   "volet": "en_cours",
-   "titre": "Commune pilote : Bouillargues",
-   "version": "v4"
   }
  ]
 }
