@@ -2,7 +2,7 @@
  "titre": "Étude de l'exposition aux inondations des aires de stationnement publiques de surface",
  "maitre_ouvrage": "EPTB Vistre Vistrenque",
  "marche": "Marché 2026-03 · action 1.9 du PAPI 3 Vistre",
- "genere_le": "2026-10-30",
+ "genere_le": "2026-11-02",
  "phases": [
   {
    "id": "inventaire",
@@ -23,12 +23,12 @@
     {
      "id": "inventaire_complete",
      "titre": "Inventaire complété : 42 communes",
-     "date": "2026-10-30",
-     "version": "v2",
+     "date": "2026-11-02",
+     "version": "v3",
      "type": "carte",
-     "description": "Toutes les aires retenues sur les 42 communes après l'examen aire par aire : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Chaque aire porte son usage, son contexte, son revêtement, son gestionnaire probable, son accès et une description, proposés par analyse de la photographie aérienne et des données voisines. La version 2 ajoute les aires retrouvées aux abords des équipements publics, les placettes de lotissement et les rejets rejugés sur leur emprise entière, et distingue l'habitat collectif des autres usages résidentiels. Les aires signalées par l'EPTB sur la commune pilote de Bouillargues y figurent. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
-     "fichier": "donnees/inventaire/inventaire_complete_v2.geojson",
-     "nb_objets": 969
+     "description": "Toutes les aires examinées sur les 42 communes : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Les aires retenues portent leur usage, leur contexte, leur revêtement, leur gestionnaire probable, leur accès et une description, proposés par analyse de la photographie aérienne et des données voisines. La version 3 ajoute des parkings de commerce et présente aussi, en bas du classement, les aires écartées à l'examen pour lesquelles la question du stationnement se pose : privé ouvert au public, hors critères de l'étude (moins de 10 places, linéaire, souterrain) et privé à accès fermé, quasiment certainement non mobilisable. Cet ensemble sert de base pour situer, commune par commune, ce qui est mobilisable, qui reste à définir. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
+     "fichier": "donnees/inventaire/inventaire_complete_v3.geojson",
+     "nb_objets": 1565
     }
    ],
    "livraison": []
@@ -108,11 +108,11 @@
  ],
  "journal": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "phase": "Inventaire des aires",
    "volet": "en_cours",
    "titre": "Inventaire complété : 42 communes",
-   "version": "v2"
+   "version": "v3"
   }
  ]
 }
