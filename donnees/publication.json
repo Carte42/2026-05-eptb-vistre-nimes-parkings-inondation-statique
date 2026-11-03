@@ -24,11 +24,11 @@
      "id": "inventaire_complete",
      "titre": "Inventaire complété : 42 communes",
      "date": "2026-11-03",
-     "version": "v4",
+     "version": "v5",
      "type": "carte",
-     "description": "Toutes les aires examinées sur les 42 communes : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Les aires retenues portent leur usage, leur contexte, leur revêtement, leur gestionnaire probable, leur accès et une description. La version 4 ajoute le stationnement au pied des immeubles collectifs, relevé sur photographie aérienne autour des immeubles d'au moins 10 logements : ces aires n'ont pas encore toutes été vérifiées une à une, et leur description est plus sommaire. En bas du classement figurent les aires écartées pour lesquelles la question du stationnement se pose : privé ouvert au public, hors critères de l'étude (moins de 10 places, linéaire, souterrain ou sur dalle) et privé à accès fermé, quasiment certainement non mobilisable. Cet ensemble sert de base pour situer, commune par commune, ce qui est mobilisable, qui reste à définir. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
-     "fichier": "donnees/inventaire/inventaire_complete_v4.geojson",
-     "nb_objets": 2448
+     "description": "Toutes les aires examinées sur les 42 communes : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Les aires retenues portent leur usage, leur contexte, leur revêtement, leur gestionnaire probable, leur accès et une description. La version 5 intègre le contrôle des dernières aires en suspens. La version 4 a ajouté le stationnement au pied des immeubles collectifs, relevé sur photographie aérienne autour des immeubles d'au moins 10 logements : ces aires n'ont pas encore toutes été vérifiées une à une, et leur description est plus sommaire. En bas du classement figurent les aires écartées pour lesquelles la question du stationnement se pose : privé ouvert au public, hors critères de l'étude (moins de 10 places, linéaire, souterrain ou sur dalle) et privé à accès fermé, quasiment certainement non mobilisable. Cet ensemble sert de base pour situer, commune par commune, ce qui est mobilisable, qui reste à définir. Proposé pour avis avant la tournée de terrain : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
+     "fichier": "donnees/inventaire/inventaire_complete_v5.geojson",
+     "nb_objets": 2465
     }
    ],
    "livraison": []
@@ -112,7 +112,7 @@
    "phase": "Inventaire des aires",
    "volet": "en_cours",
    "titre": "Inventaire complété : 42 communes",
-   "version": "v4"
+   "version": "v5"
   }
  ]
 }
