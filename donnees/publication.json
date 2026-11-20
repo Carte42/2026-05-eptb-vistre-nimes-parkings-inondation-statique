@@ -2,7 +2,7 @@
  "titre": "Étude de l'exposition aux inondations des aires de stationnement publiques de surface",
  "maitre_ouvrage": "EPTB Vistre Vistrenque",
  "marche": "Marché 2026-03 · action 1.9 du PAPI 3 Vistre",
- "genere_le": "2026-11-15",
+ "genere_le": "2026-11-20",
  "phases": [
   {
    "id": "inventaire",
@@ -26,12 +26,31 @@
      "date": "2026-11-15",
      "version": "v6",
      "type": "carte",
-     "description": "Toutes les aires examinées sur les 42 communes : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Les aires retenues portent leur usage, leur contexte, leur revêtement, leur gestionnaire probable, leur accès et une description. La version 6 intègre les aires relevées sur place pendant la tournée de terrain, les surfaces rattrapées sur photographie aérienne (surfaces vides, couvert arboré) et les rangements le long des voies des zones d'activités, tous décrits comme les autres aires. La version 5 intègre le contrôle des dernières aires en suspens. La version 4 a ajouté le stationnement au pied des immeubles collectifs, relevé sur photographie aérienne autour des immeubles d'au moins 10 logements : ces aires n'ont pas encore toutes été vérifiées une à une, et leur description est plus sommaire. En bas du classement figurent les aires écartées pour lesquelles la question du stationnement se pose : privé ouvert au public, hors critères de l'étude (moins de 10 places, linéaire, souterrain ou sur dalle) et privé à accès fermé, quasiment certainement non mobilisable. Cet ensemble sert de base pour situer, commune par commune, ce qui est mobilisable, qui reste à définir. Proposé pour avis : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
+     "description": "Toutes les aires examinées sur les 42 communes : base OpenStreetMap et BD TOPO, vivier communal et compléments de l'inventaire. Les aires retenues portent leur usage, leur contexte, leur revêtement, leur gestionnaire probable, leur accès et une description. La version 6 intègre les aires relevées sur place pendant la tournée de terrain, les surfaces rattrapées sur photographie aérienne (surfaces vides, couvert arboré) et les rangements le long des voies des zones d'activités, tous décrits comme les autres aires. La version 5 intègre le contrôle des dernières aires en suspens. La version 4 a ajouté le stationnement au pied des immeubles collectifs, relevé sur photographie aérienne autour des immeubles d'au moins 10 logements : ces aires n'ont pas encore toutes été vérifiées une à une, et leur description est plus sommaire. En bas du classement figurent les aires écartées pour lesquelles la question du stationnement se pose : privé ouvert au public, hors critères de l'étude (moins de 10 places, linéaire, souterrain ou sur dalle) et privé à accès fermé, a priori non mobilisable. Cet ensemble sert de base pour situer, commune par commune, ce qui est mobilisable, qui reste à définir. Proposé pour avis : la liste n'est pas arrêtée, et le nombre de places sera compté sur la liste arrêtée.",
      "fichier": "donnees/inventaire/inventaire_complete_v6.geojson",
      "nb_objets": 2562
     }
    ],
-   "livraison": []
+   "livraison": [
+    {
+     "id": "rapport_inventaire",
+     "titre": "Rapport de production et de contrôle de l'inventaire",
+     "date": "2026-11-20",
+     "version": "R1",
+     "type": "document",
+     "description": "Comment l'inventaire a été constitué, source par source, puis contrôlé : contrôle d'exhaustivité sur échantillon représentatif, contrôle de l'EPTB, contrôle de terrain par échantillonnage. Inventaire consolidé, limites et suites. Le dictionnaire des données figure en annexe A. Version provisoire, soumise à la validation de l'EPTB.",
+     "fichier": "documents/inventaire/rapport_inventaire_phase1.pdf"
+    },
+    {
+     "id": "donnees_inventaire",
+     "titre": "Données de l'inventaire : GeoPackage et projet QGIS",
+     "date": "2026-11-20",
+     "version": "R1",
+     "type": "document",
+     "description": "Archive à décompresser : GeoPackage (aires retenues, aires écartées, repères OSM écartés sans emprise, communes, zones du contrôle d'exhaustivité), en Lambert 93, et projet QGIS 3.34 ou ultérieur, stylé, sur fonds IGN en ligne. Garder les deux fichiers dans le même dossier. Champs décrits dans le dictionnaire des données (annexe A du rapport).",
+     "fichier": "documents/inventaire/inventaire_phase1_donnees.zip"
+    }
+   ]
   },
   {
    "id": "aleas",
@@ -107,6 +126,20 @@
   }
  ],
  "journal": [
+  {
+   "date": "2026-11-20",
+   "phase": "Inventaire des aires",
+   "volet": "livraison",
+   "titre": "Rapport de production et de contrôle de l'inventaire",
+   "version": "R1"
+  },
+  {
+   "date": "2026-11-20",
+   "phase": "Inventaire des aires",
+   "volet": "livraison",
+   "titre": "Données de l'inventaire : GeoPackage et projet QGIS",
+   "version": "R1"
+  },
   {
    "date": "2026-11-15",
    "phase": "Inventaire des aires",
